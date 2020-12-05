@@ -9,7 +9,7 @@ public class login {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "D:\\my workspace\\chromedriver.exe");
-		String nm[]={"tester1","tester2","tester3"};
+		//commented String nm[]={"tester1","tester2","tester3"};
 				WebDriver driver=new ChromeDriver();
 				driver.get("file:///D:/prax%2010/data.html");
 				
